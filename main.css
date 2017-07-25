@@ -1,0 +1,210 @@
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, p, blockquote, th, td {
+  font: normal 18px/1.2 arial, sans-serif;
+  color: #1e1e1e;
+  font-style: normal;
+}
+
+aside h2 {
+  font-size: 30px;
+  color: #00447c;
+  font-weight: 600;
+}
+
+h3 {
+  color: #717073;
+  font-weight: 600;
+}
+
+aside p {
+    font-family: 'Gotham A', 'Gotham B', Open Sans, helvetica, arial, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1rem;
+    color: #1e1e1e;
+    line-height: 1.6em;
+    font-size: 17px;
+}
+
+iframe {
+    width: 100%;
+}
+
+a {
+  color: #007dc3;
+  font-weight: 700;
+}
+
+.wysiwyg li {
+    margin-left: 35px;
+    font-size: 17px;
+}
+
+#page-header {
+  width: 100%;
+  background-image: url(https://msudenver.edu/media/newsiteassets/images/header_asphalt.png);
+  background-size: 100%;
+  position: fixed;
+}
+
+.engage-form.container p {
+  font-size: 17px;
+}
+
+.nav-bar {
+  background: white;
+  float: none;
+  margin: auto;
+  width: 100%;
+}
+
+.menu-wrapper {
+  background: #fff;
+  box-shadow: 1px 5px 5px rgba(0, 0, 0, 0.175);
+}
+.column, .columns {
+  padding: 0px;
+}
+
+.nav-bar > li > a {
+  color: #00447c !important;
+  font-size: 19px !important;
+  text-transform: none !important;
+}
+
+.nav-bar > li {
+  line-height: inherit;
+  border-right: 1px solid #337ab7;
+}
+
+#logo {
+    float: none;
+}
+
+#logo a {
+  padding: 10px;
+}
+.row .eight {
+    width: 100%;
+}
+.row .four {
+    width: 100%;
+}
+
+aside > form > h2, div > aside > h2 {
+    font-size: 20px;
+  }
+
+.button.expand {
+  width: auto;
+}
+
+aside h1 {
+    border-left: 0;
+    padding-left: 16px;
+    font-weight: bold;
+}
+
+#page-footer {
+  background-image:url(http://msudenver.edu/media/newsiteassets/images/downtowndenver_msudenver.jpg);
+}
+
+#page-footer aside p {
+  color: #fff;
+}
+
+#page-content {
+  padding-top: 6em;
+}
+
+#page-content, #page-footer {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.button.expand, .registration > .button {
+  min-width: 50px;
+}
+
+#page-header {
+  position: fixed;
+  z-index: 3;
+  margin-top: -0.2em;
+}
+
+.mobile-header h2 {
+  display: none;
+}
+
+.mobile-header {
+  background-color: #003a6e;
+  color: #001e36;
+}
+
+.mobile-header span.hamburger {
+  color: #fff;
+}
+
+#main-nav-notflannel .page-menu-content .nav-bar li {
+  background: #fff;
+  border-bottom: 1px solid #001e36;
+}
+
+#main-nav-notflannel .page-menu-content .nav-bar > li:hover {
+  background: transparent;
+}
+.nav-bar > li:hover {
+    line-height: inherit;
+}
+
+@media screen and (min-width: 768px) {
+  .nav-bar > li > a {
+    font-size: 15px !important;
+    font-weight: 400 !important;
+  }
+  #logo a img {
+    border: 0;
+    padding: 3rem 2rem 1rem 3rem;
+    max-width: 200%;
+  }
+  #page-content {
+    padding-top: 170px;
+  }
+  #main-nav-notflannel .page-menu-content .nav-bar li {
+      background: #fff;
+      border-bottom: none;
+  }
+  #main-nav-notflannel .page-menu-content .nav-bar > li a {
+    padding: 0 10px;
+    margin-top: 0px;
+  }
+  .nav-bar {
+    max-width: 76rem;
+    padding-top: 2.2rem;
+    padding-bottom: 2.2rem;
+  }
+    .nav-bar > li:hover {
+    line-height: inherit;
+  }
+  #main-nav-notflannel .page-menu-content .nav-bar {
+      margin-top: 0px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .nav-bar > li > a {
+    font-size: 19px !important;
+    font-weight: 700 !important;
+  }
+  .nav-bar {
+    max-width: 100rem;
+  }
+}
+
+@media screen and (min-width: 1200px){
+  #main-nav-notflannel .page-menu-content .nav-bar > li a {
+      padding: 0 11px;
+  }
+  #logo a img {
+    padding: 3rem 2rem 1rem 10rem;
+  }
+}
