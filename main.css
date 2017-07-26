@@ -83,12 +83,6 @@ a {
 #logo a {
   padding: 10px;
 }
-.row .eight {
-    width: 100%;
-}
-.row .four {
-    width: 100%;
-}
 
 aside > form > h2, div > aside > h2 {
     font-size: 20px;
@@ -175,7 +169,7 @@ div[id^='id'] > .engage-header {
     max-width: 200%;
   }
   #page-content {
-    padding-top: 170px;
+    padding-top: 200px;
   }
   #main-nav-notflannel .page-menu-content .nav-bar li {
       background: #fff;
@@ -203,6 +197,33 @@ div[id^='id'] > .engage-header {
 
   div[id^='id'] > .engage-header {
     padding-top: 0px !important;
+  }
+  .row .four {
+      width: 75%;
+      padding-left: 10px;
+  }
+  .row .eight {
+      width: 25%;
+      padding-right: 10px;
+  }
+  input[type="text"] {
+    width: 280%;
+  }
+  .row .mobile-three, .row .mobile-one {
+    width: 25%;
+  }
+  #interiorContent.eight {
+    width: 100%
+  }
+  #interiorContent.eight input[type="text"] {
+    width: 100%;
+  }
+  .panel.six.columns.last {
+    width: 100%;
+    padding-bottom: 10px !important;
+  }
+  [class*="column"] + [class*="column"]:last-child {
+    float: left;
   }
 }
 
