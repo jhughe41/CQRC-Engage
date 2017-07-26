@@ -156,6 +156,14 @@ aside h1 {
     line-height: inherit;
 }
 
+div[id^='id'] > .row {
+  padding-top: 115px;
+}
+
+div[id^='id'] > .engage-header {
+  padding-top: 0px !important;
+}
+
 @media screen and (min-width: 768px) {
   .nav-bar > li > a {
     font-size: 15px !important;
@@ -187,6 +195,14 @@ aside h1 {
   }
   #main-nav-notflannel .page-menu-content .nav-bar {
       margin-top: 0px;
+  }
+
+  div[id^='id'] > .row {
+    padding-top: 200px;
+  }
+
+  div[id^='id'] > .engage-header {
+    padding-top: 0px !important;
   }
 }
 
