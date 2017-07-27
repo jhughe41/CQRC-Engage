@@ -158,6 +158,18 @@ div[id^='id'] > .engage-header {
   padding-top: 0px !important;
 }
 
+.lookup form {
+    padding: 0 10px;
+}
+
+.panel.six.columns.last {
+  width: 100%;
+  padding-bottom: 10px !important;
+}
+#interiorSidebar {
+  padding: 0 15px;
+}
+
 @media screen and (min-width: 768px) {
   .nav-bar > li > a {
     font-size: 15px !important;
@@ -206,9 +218,6 @@ div[id^='id'] > .engage-header {
       width: 25%;
       padding-right: 10px;
   }
-  input[type="text"] {
-    width: 280%;
-  }
   .row .mobile-three {
     width: 25%;
   }
@@ -218,12 +227,15 @@ div[id^='id'] > .engage-header {
   #interiorContent.eight input[type="text"] {
     width: 100%;
   }
-  .panel.six.columns.last {
-    width: 100%;
-    padding-bottom: 10px !important;
-  }
   [class*="column"] + [class*="column"]:last-child {
     float: left;
+  }
+  div.four.mobile-one.columns {
+    width: 25%;
+  }
+  div.eight.mobile-three.columns {
+    width: 75%;
+    padding-right: 10px !important;
   }
 }
 
