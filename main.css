@@ -209,7 +209,7 @@ div[id^='id'] > .engage-header {
   input[type="text"] {
     width: 280%;
   }
-  .row .mobile-three, .row .mobile-one {
+  .row .mobile-three {
     width: 25%;
   }
   #interiorContent.eight {
