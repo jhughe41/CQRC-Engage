@@ -170,6 +170,19 @@ div[id^='id'] > .engage-header {
   padding: 0 15px;
 }
 
+.panel div[id^='id'] > .row {
+    padding-top: 0px;
+}
+
+.registration {
+  padding: 0 15px;
+}
+
+div[id^='engage-plugin-'] {
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
 @media screen and (min-width: 768px) {
   .nav-bar > li > a {
     font-size: 15px !important;
