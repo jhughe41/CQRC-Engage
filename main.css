@@ -26,7 +26,8 @@ aside p {
 }
 
 iframe {
-    width: 100%;
+    /*width: 100%;*/
+    margin-left: 0px;
 }
 
 a {
@@ -41,9 +42,11 @@ a {
 
 #page-header {
   width: 100%;
-  background-image: url(https://msudenver.edu/media/newsiteassets/images/header_asphalt.png);
+  background-image: url(https://msudenver.edu/media/newsiteassets/images/champions-banner.png);
   background-size: 100%;
   position: fixed;
+  position-left: 0;
+  position-right: 0;
 }
 
 .engage-form.container p {
@@ -99,7 +102,8 @@ aside h1 {
 }
 
 #page-footer {
-  background-image:url(http://msudenver.edu/media/newsiteassets/images/downtowndenver_msudenver.jpg);
+  // background-image:url(http://msudenver.edu/media/newsiteassets/images/downtowndenver_msudenver.jpg);
+  background-color: #003a6e;
 }
 
 #page-footer aside p {
@@ -158,6 +162,10 @@ div[id^='id'] > .engage-header {
   padding-top: 0px !important;
 }
 
+.panel div[id^='id'] > .row {
+    padding-top: 0px;
+}
+
 .lookup form {
     padding: 0 10px;
 }
@@ -166,12 +174,9 @@ div[id^='id'] > .engage-header {
   width: 100%;
   padding-bottom: 10px !important;
 }
+
 #interiorSidebar {
   padding: 0 15px;
-}
-
-.panel div[id^='id'] > .row {
-    padding-top: 0px;
 }
 
 .registration {
@@ -181,6 +186,43 @@ div[id^='id'] > .engage-header {
 div[id^='engage-plugin-'] {
   padding: 0 !important;
   margin: 0 !important;
+}
+
+aside.wysiwyg {
+  border-bottom: none;
+}
+
+.header-tagline {
+  padding: 25px 65px 25px 80px;
+  z-index: 3;
+  position: fixed;
+  top: 55px;
+  text-align: right;
+  background: rgba(209, 18, 66, 0.8);
+  color: #fff;
+  right: 0;
+}
+
+.tagline-top-text {
+  font-weight: 900;
+  font-size: 24px;
+  letter-spacing: 1px;
+  color: #fff;
+}
+
+.tagline-bottom-text {
+  font-weight: 400;
+  font-size: 24px;
+  letter-spacing: 1px;
+  color: #fff;
+}
+
+#player, .fallback, body, html, iframe {
+   margin: 0;
+}
+
+.button span:after {
+    content: none;
 }
 
 @media screen and (min-width: 768px) {
@@ -194,7 +236,7 @@ div[id^='engage-plugin-'] {
     max-width: 200%;
   }
   #page-content {
-    padding-top: 200px;
+    padding-top: 250px;
   }
   #main-nav-notflannel .page-menu-content .nav-bar li {
       background: #fff;
@@ -231,6 +273,7 @@ div[id^='engage-plugin-'] {
       width: 25%;
       padding-right: 10px;
   }
+
   .row .mobile-three {
     width: 25%;
   }
@@ -245,10 +288,18 @@ div[id^='engage-plugin-'] {
   }
   div.four.mobile-one.columns {
     width: 25%;
+    float: right;
   }
+  div.four.mobile-one.columns button {
+    margin: 0;
+  }
+
   div.eight.mobile-three.columns {
-    width: 75%;
-    padding-right: 10px !important;
+    width: 100%;
+    // padding-right: 10px !important;
+  }
+  #region4.four.columns, #region5.four.columns, #region6.four.columns {
+    width: 50%;
   }
 }
 
