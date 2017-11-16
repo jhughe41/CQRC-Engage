@@ -27,6 +27,8 @@ aside p {
 
 iframe {
     margin-left: 0px;
+    width: 100%;
+    background: #000;
 }
 
 a {
@@ -192,26 +194,27 @@ aside.wysiwyg {
 }
 
 .header-tagline {
-  padding: 25px 65px 25px 80px;
+  padding: 10px 30px 10px 20px;
   z-index: 3;
   position: fixed;
-  top: 55px;
+  top: 10px;
   text-align: right;
   background: rgba(209, 18, 66, 1);
   color: #fff;
   right: 0;
+  width: 40%;
 }
 
 .tagline-top-text {
   font-weight: 900;
-  font-size: 24px;
+  font-size: 14px;
   letter-spacing: 1px;
   color: #fff;
 }
 
 .tagline-bottom-text {
   font-weight: 400;
-  font-size: 24px;
+  font-size: 14px;
   letter-spacing: 1px;
   color: #fff;
 }
@@ -226,6 +229,10 @@ aside.wysiwyg {
 
 .header-tagline {
   mix-blend-mode: multiply;
+}
+
+#logo a img {
+   width: 50%;
 }
 
 @media screen and (min-width: 768px) {
@@ -304,6 +311,18 @@ aside.wysiwyg {
   #region4.four.columns, #region5.four.columns, #region6.four.columns {
     width: 50%;
   }
+  .header-tagline {
+    padding: 20px 30px 20px 20px;
+    top: 2px;
+    width: 40%;
+  }
+  .tagline-top-text, .tagline-bottom-text {
+      font-size: 24px;
+  }
+  #logo a img {
+     width: auto;
+   }
+
 }
 
 @media screen and (min-width: 992px) {
@@ -313,6 +332,11 @@ aside.wysiwyg {
   }
   .nav-bar {
     max-width: 100rem;
+  }
+  .header-tagline {
+    padding: 25px 40px 25px 50px;
+    width: auto;
+    top: 50px;
   }
 }
 
