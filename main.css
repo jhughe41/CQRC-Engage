@@ -26,7 +26,6 @@ aside p {
 }
 
 iframe {
-    /*width: 100%;*/
     margin-left: 0px;
 }
 
@@ -180,7 +179,7 @@ div[id^='id'] > .engage-header {
 }
 
 .registration {
-  padding: 0 15px;
+  padding: 0 5px;
 }
 
 div[id^='engage-plugin-'] {
@@ -198,7 +197,7 @@ aside.wysiwyg {
   position: fixed;
   top: 55px;
   text-align: right;
-  background: rgba(209, 18, 66, 0.8);
+  background: rgba(209, 18, 66, 1);
   color: #fff;
   right: 0;
 }
@@ -223,6 +222,10 @@ aside.wysiwyg {
 
 .button span:after {
     content: none;
+}
+
+.header-tagline {
+  mix-blend-mode: multiply;
 }
 
 @media screen and (min-width: 768px) {
