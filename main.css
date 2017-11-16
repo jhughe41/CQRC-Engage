@@ -203,6 +203,8 @@ aside.wysiwyg {
   color: #fff;
   right: 0;
   width: 40%;
+  mix-blend-mode: multiply;
+  display: none;
 }
 
 .tagline-top-text {
@@ -225,10 +227,6 @@ aside.wysiwyg {
 
 .button span:after {
     content: none;
-}
-
-.header-tagline {
-  mix-blend-mode: multiply;
 }
 
 #logo a img {
@@ -315,6 +313,7 @@ aside.wysiwyg {
     padding: 20px 30px 20px 20px;
     top: 2px;
     width: 40%;
+    display: block;
   }
   .tagline-top-text, .tagline-bottom-text {
       font-size: 24px;
