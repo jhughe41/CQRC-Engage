@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<engage:template xmlns:engage="http://cqrcengage.com">
+
+<engage:include src="header.html"/>
+
+<div id="page-content" class="layout1">
+	<div class="row">
+		<div class="twelve columns">
+			<div id="region1">
+				<engage:region name="region1" regionType="featured" validModules="FEATURED_ENGAGEMENT,WYSIWYG" maxModules="1" />
+			</div>
+		</div><!-- twelve columns -->
+	</div>
+	<div class="row">
+		<div class="eight columns">
+			<div class="twelve" id="region2">
+				<engage:region name="region2" invalidModules="FEATURED_ENGAGEMENT"/>
+			</div>
+		</div><!-- eight columns-->
+		<div class="four columns" id="region3">
+			<engage:region name="region3" invalidModules="FEATURED_ENGAGEMENT"/>
+		</div><!-- four columns-->
+	</div><!--row-->
+</div>
+
+<footer id="page-footer">
+	<div class="row">
+		<div class="four columns" id="region4">
+			<engage:region name="region4" invalidModules="FEATURED_ENGAGEMENT"/>
+		</div><!-- four columns-->
+		<div class="four columns" id="region5">
+			<engage:region name="region5" invalidModules="FEATURED_ENGAGEMENT"/>
+		</div><!-- four columns-->
+		<div class="four columns" id="region6">
+			<engage:region name="region6" invalidModules="FEATURED_ENGAGEMENT"/>
+		</div><!-- four columns-->
+	</div>
+</footer>
+
+
+</engage:template>
+

@@ -1,0 +1,20 @@
+{
+  "layouts":[
+  	{
+  	  "systemName":"layout1",
+      "label":"Layout 1",
+      "description":"Layout 1"
+  	},
+  	{
+  	  "systemName":"layout2",
+      "label":"Layout 2",
+      "description":"Layout 2"
+  	},
+	{
+	  "systemName":"layout7",
+	  "label":"Issue Layout 1",
+	  "description":"Issue Page Layout",
+	  "type":"issue"
+	  }
+	]
+}
